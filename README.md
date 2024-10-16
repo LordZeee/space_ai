@@ -7,7 +7,8 @@
 3. Fine-tune the space AI model using open-source base models for local installation and operation to reduce development costs.
 
 ## Proposal Items
-![Proposal Image](https://hackmd.io/_uploads/HJZdNGT1kg.png)
+
+![Proposal Image](./images/proposal_req.png)
 
 ## Proposal Development
 
@@ -22,6 +23,7 @@ Relevant sources:
 - GitHub repository for fine-tuning: [Unified Efficient Fine-Tuning of 100+ LLMs](https://github.com/hiyouga/LLaMA-Factory)
 
 To do:
+
 - [ ] **Discuss fine-tuning methods:**
 
 | Tuning Method | Information | Comments |
@@ -41,16 +43,18 @@ To do:
 ### Monolingual and Multilingual Training
 
 To-do:
+
 - [ ] Find ways to handle the multilingual (Korean) requirement.
 
 Important resources:
+
 - [LLM test for korean language](https://github.com/daekeun-ml/evaluate-llm-on-korean-dataset)
 
 Possible actions:
+
 - Add a translator to the input.
 - Train the model on Korean data.
 - Use sequential fine-tuning or extend the tokenizer to include Korean tokens.
-
 
 ### Domain Adaptation
 
@@ -61,6 +65,7 @@ Possible actions:
 ### Model Selection Criteria
 
 Criteria for selecting the base model:
+
 - Multilingual Support
 - Multimodal Support (e.g., image-to-text, document QA)
 - Benchmark performance
@@ -81,7 +86,7 @@ Criteria for selecting the base model:
 ### Model Performance Benchmarks
 
 - Reference benchmarks used in the Pixtral article:
-  ![Pixtral Comparison](https://hackmd.io/_uploads/rkH4TWTJyl.png)
+  ![Pixtral Comparison](./images/pixtral_bench.png)
 - LLM performance list: [Chatbot Arena](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)
 - LLM evaluation GitHub repo: [LLMTest_NeedleInAHaystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack/tree/main)
 
@@ -90,12 +95,13 @@ Criteria for selecting the base model:
 - Use academic journals, space agency publications (e.g., NASA, ESA, KARI), Wikipedia, and news articles.
 - Reference: [Resources for Fine-Tuning LLMs with Space-Related Data](/r62hcXfZS8eK6yULtEYQyw)
 - Datasets:
-    - Physics Question Answering
-    - ArXiv Dataset
-    - Astronomical Dataset
-    - US/UA Patents Data (for technical drawings)
+  - Physics Question Answering
+  - ArXiv Dataset
+  - Astronomical Dataset
+  - US/UA Patents Data (for technical drawings)
 
 Possible issues to discuss:
+
 - [ ] What type of data are we planning to work with (e.g., can we focus only on text data)?
 - [ ] What type of problems should the fine-tuned model solve?
 
@@ -122,7 +128,6 @@ Training methods supported by [Unified Efficient Fine-Tuning of 100+ LLMs](https
 | KTO (Knowledge Transfer Optimization) Training | Techniques for transferring knowledge from a teacher model to a student model.                        |
 | ORPO (Optimized Reinforcement Policy Optimization) Training | Refines the policy optimization process for efficiency.                                 |
 | SimPO (Simulation Policy Optimization) Training | Optimizes policies within a simulated environment.                                                   |
-
 
 ### Setting Training Parameters
 
@@ -160,6 +165,7 @@ Training methods supported by [Unified Efficient Fine-Tuning of 100+ LLMs](https
 - [ ] To discuss
 
 Questions to address:
+
 - Are we planning to use our own GPUs? (Do we have them?)
 - We can use base model specifications as a reference.
 
@@ -175,6 +181,7 @@ This section can be divided into two groups: overall model performance and domai
 ### Domain Knowledge Validation
 
 Questions:
+
 - [ ] To discuss
 - [ ] How can we evaluate the model's space-related knowledge?
 
