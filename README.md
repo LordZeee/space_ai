@@ -7,7 +7,11 @@
 3. Fine-tune the space AI model using open-source base models for local installation and operation to reduce development costs.
 
 ## Proposal Items
-![Proposal Image](https://hackmd.io/_uploads/HJZdNGT1kg.png)
+<p align="center">
+  <img src="./proposal_req.png" width="350" title="hover text">
+<!--   <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text"> -->
+</p>
+<!-- ![Proposal Image](./proposal_req.png) -->
 
 ## Proposal Development
 
@@ -77,7 +81,7 @@ Criteria for selecting the base model:
 ### Model Performance Benchmarks
 
 - Reference benchmarks used in the Pixtral article:
-  ![Pixtral Comparison](https://hackmd.io/_uploads/rkH4TWTJyl.png)
+  ![Pixtral Comparison](pixtral_bench.png)
 - LLM performance list: [Chatbot Arena](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)
 - LLM evaluation GitHub repo: [LLMTest_NeedleInAHaystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack/tree/main)
 
